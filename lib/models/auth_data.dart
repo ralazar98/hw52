@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:crypto/crypto.dart';
 
-/// Основа модели создана в Cline. PIN сохраняется как хэш с отдельной солью.
+/// Данные локальной авторизации. PIN хранится как хэш с отдельной солью.
 class AuthData {
   final int? id;
   final String apiKey;
